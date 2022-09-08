@@ -55,9 +55,10 @@ public final class MexicanCurpCode {
      *
      * Tests whether a CharSequence is a valid mexican 'CURP' code or not
      *
-     * @param tested the CharSequence to test
-     * @return true if the CharSequence is a valid mexican 'CURP' code, false otherwise
-     * @throws NullPointerException if the CharSequence is null
+     * @param    tested     the CharSequence to test
+     * @return    true      if the CharSequence is a valid mexican 'CURP' code, false otherwise
+     *
+     * @throws  NullPointerException if tested is null
      */
     public static boolean isValid(CharSequence tested) throws NullPointerException {
         requireNonNull(tested);
