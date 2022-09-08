@@ -34,7 +34,7 @@ public final class MexicanCurpCode {
      * 11) First non-initial consonant of the first last name
      * 12) First non-initial consonant of the second last name
      * 13) First non-initial consonant of the first name
-     * 14) Any letter in upper case or a single digit, to prevent 'CURP' code duplications
+     * 14) Any letter in upper case or a single digit
      * 15) A single digit
      * 16) $ for end of line
      */
